@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_half_rounded_white"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="16dp">
+
+
+    <com.bbj.hoteltest.ui.common.ImageSliderWithIndicator
+        android:id="@+id/isSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_rounded_yellow"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star" />
+
+        <TextView
+            android:id="@+id/tvRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="1dp"
+            android:textAppearance="@style/TextMedium16"
+            android:textColor="@color/yellow_dark"
+            tools:text="@string/five_stars" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvHotelName"
+        style="@style/TextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        tools:text="Steigenberger Makadi" />
+
+    <TextView
+        android:id="@+id/tvHotelAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAddress"
+        tools:text="Madinat Makadi, Safaga Road, Makadi Bay, Египет" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvHotelPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextPrice"
+            tools:text="от 134 673 ₽" />
+
+        <TextView
+            android:id="@+id/tvHotelPriceFor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextRegular16.Addition"
+            tools:text="@string/for_tour" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/shape_rounded_white_15">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/departure_from"
+            android:textAppearance="@style/TextRegular16.Addition"/>
+
+        <TextView
+            android:id="@+id/tvDepartureFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "Санкт-Петербург"
+            android:textAppearance="@style/TextRegular16.Black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cc"
+            android:textAppearance="@style/TextRegular16.Addition"/>
+
+        <TextView
+            android:id="@+id/tvCountryCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "Египет, Хургада"
+            android:textAppearance="@style/TextRegular16.Black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dates"
+            android:textAppearance="@style/TextRegular16.Addition"/>
+
+        <TextView
+            android:id="@+id/tvDates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "19.09.2023 – 27.09.2023"
+            android:textAppearance="@style/TextRegular16.Black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/night_count"
+            android:textAppearance="@style/TextRegular16.Addition"/>
+
+        <TextView
+            android:id="@+id/tvNightCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "7 ночей"
+            android:textAppearance="@style/TextRegular16.Black"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hotel"
+            android:textAppearance="@style/TextRegular16.Addition"/>
+
+        <TextView
+            android:id="@+id/tvHotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "Steigenberger Makadi"
+            android:textAppearance="@style/TextRegular16.Black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/room"
+            android:textAppearance="@style/TextRegular16.Addition"/>
+
+        <TextView
+            android:id="@+id/tvRoomType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "Стандартный с видом на бассейн или сад"
+            android:textAppearance="@style/TextRegular16.Black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/food"
+            android:textAppearance="@style/TextRegular16.Addition"/>
+
+        <TextView
+            android:id="@+id/tvFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "Все включено"
+            android:textAppearance="@style/TextRegular16.Black"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

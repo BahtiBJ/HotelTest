@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextTitle">
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/sf_pro_display_medium</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextToolbar">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+    <style name="TextChip">
+        <item name="android:textColor">@color/gray_addition</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+    <style name="TextAddress">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+    <style name="TextPrice">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+    <style name="TextRegular16">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+    </style>
+
+    <style name="TextRegular14">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+    </style>
+
+    <style name="TextMedium16">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+    <style name="TextMedium14">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+    <style name="TextRegular16.Addition">
+        <item name="android:textColor">@color/gray_addition</item>
+    </style>
+
+    <style name="TextRegular16.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextRegular14.Addition">
+        <item name="android:textColor">@color/gray_addition</item>
+    </style>
+
+    <style name="TextMedium16.Addition">
+        <item name="android:textColor">@color/gray_addition</item>
+    </style>
+
+    <style name="TextMedium16.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextMedium14.Addition">
+        <item name="android:textColor">@color/gray_addition</item>
+    </style>
+</resources>
