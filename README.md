@@ -6,10 +6,10 @@ At the moment, the data is obtained from the stub (data-mock module). This modul
 You can implement your own interface from the data module to receive data. To work with the network, the network module is used. To work with databases, the database module is used.
 
 # Stack
-Language: Kotlin. \n
-Network: Retrofit, OkHttp. \n
-Database: Room. \n
-DI: Koin. \n
+Language: Kotlin. \
+Network: Retrofit, OkHttp. \
+Database: Room. \
+DI: Koin. \
 UI: Adapter Delegate,FlexBoxLayout,Picasso.
 
 # Capabilities
