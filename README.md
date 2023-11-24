@@ -27,4 +27,4 @@ On the third page for booking you need to provide information about yourself, an
 
 The fourth page contains the status of your order.
 
-![](illustrations/order.gif "Order")
+![](illustrations/order.jpg "Order")
